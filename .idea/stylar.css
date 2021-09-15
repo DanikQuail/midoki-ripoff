@@ -83,3 +83,40 @@ body {
     color: white;
     font-size: 22px;
 }
+@media screen and (max-width: 1200px) {
+    .imageLeft{
+        -webkit-user-drag: none;
+        z-index: -1;
+        top: 0;
+        height: 25%;
+        width: 100%;
+        opacity: 50%;
+        position: relative;
+    }
+    .imageDiv{
+        z-index: -2;
+        background: rgb(2,0,36);
+        background: linear-gradient(144deg, rgba(2,0,36,1) 0%, rgba(228,20,127,1) 35%, rgba(255,0,0,1) 100%);
+        top: 0;
+        height: 25%;
+        position: relative;
+        width: 100%;
+    }
+    .text{
+        margin-left: 20%;
+        margin-top: 15%;
+        color: white;
+        font-size: 64px;
+        font-family: 'Livvic', sans-serif;
+        letter-spacing: 2px;
+        line-height: 33px;
+        position: absolute;
+    }
+    .dots{
+        display: none;
+    }
+    .imageText{
+        display: none;
+    }
+
+}
